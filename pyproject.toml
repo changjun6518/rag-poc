@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "rag-project"
+version = "0.1.0"
+description = "RAG-based Q&A system for rental loans"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+python-multipart = "^0.0.6"
+langchain = "^0.1.0"
+langchain-openai = "^0.0.5"
+langchain-community = "^0.0.10"
+langchain-chroma = "^0.0.1"
+langchain-huggingface = "^0.0.1"
+sentence-transformers = "^2.2.2"
+chromadb = "^0.4.22"
+python-dotenv = "^1.0.0"
+streamlit = "^1.31.0"
+requests = "^2.31.0"
+pypdf = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
